@@ -1,0 +1,1 @@
+This repository contains an example of a potential bug in Rust related to unsafe raw pointer manipulation of a vector. The code in `bug.rs` shows how directly modifying the raw pointer of a vector can lead to undefined behavior. The `bugSolution.rs` file provides a safer alternative using standard vector operations.
